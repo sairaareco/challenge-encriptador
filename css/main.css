@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D8DFE8;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;;
+}
+.logo {
+    padding: 2rem 1rem 1rem 0rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.title {
+    color: #0A3871;
+    margin: 3rem 0rem 0rem 8rem;
+}
+.container-text {
+    margin-top: 16rem;
+    margin-left: 5rem;
+    display: flex;
+    gap: 5px;
+}
+.exclamacion {
+    width: 15px;
+    height: 15px;
+    margin-top: 0.6rem;
+}
+.text {
+    font-size: 12px;
+    color: #495057;
+}
+.container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.encriptador {
+    background-color: #0A3871;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    font-size: 16px;
+    padding: 1rem;
+    width: 328px;
+}
+.desencriptador {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    color:#0A3871;
+    font-size: 16px;
+    padding: 1rem;
+    width: 328px;
+}
+.container-desencriptador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+}
+.img {
+    width: 200px;
+}
+.container-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 336px;
+}
+.no-message {
+    text-align: center;
+}
+.enter-text {
+    text-align: center;
+}
+
